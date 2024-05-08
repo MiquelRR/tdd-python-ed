@@ -3,3 +3,15 @@ def suma(x,y):
 
     # El alumno deberá implementar correctamente el código de la función para pasar el test correspondiente
     return x + y
+
+def resta(x,y):
+    return x-y
+
+def multiplicacion(x,y):
+    return x*y
+
+def division(x,y):
+    if y!=0 :
+        return x/y
+    else:
+        return 0
